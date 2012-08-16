@@ -133,7 +133,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "TerminalTabSwitching" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* Blurminal */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +199,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = TerminalTabSwitching;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = YES;
 			};
@@ -210,6 +215,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = TerminalTabSwitching;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;

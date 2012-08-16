@@ -22,7 +22,7 @@
 	NSArray* tabViewItems = [[self valueForKey:@"tabView"] tabViewItems];
 	for(size_t tabIndex = 0; tabIndex < [tabViewItems count]; ++tabIndex)
 	{
-		NSString* keyEquivalent = (tabIndex < 10) ? [NSString stringWithFormat:@"%d", (tabIndex+1)%10] : @"";
+		NSString* keyEquivalent = (tabIndex < 10) ? [NSString stringWithFormat:@"%ld", (tabIndex+1)%10] : @"";
 		NSTabViewItem* tabViewItem = [tabViewItems objectAtIndex:tabIndex];
 		NSMenuItem* menuItem = [[NSMenuItem alloc] initWithTitle:[tabViewItem label]
 														  action:@selector(selectRepresentedTabViewItem:)
